@@ -94,6 +94,24 @@ img {
 }
 
 .logo-second-part {color: var(--navigation-color);}
+
+.header-item {
+    position: relative;
+    
+}
+
+.header-item .current::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    left: 0;
+    bottom: -25px;
+    background-color: var(--btn-focur-color);
+}
+
 .header-list .link {
     color: var(--navigation-color);
     font-weight: 500;
@@ -448,6 +466,7 @@ margin-right: 120px;
 
 .fotter-right-part {
     margin-bottom: 16px;
+    
 }
 .social-title {
     font-weight: 500;
