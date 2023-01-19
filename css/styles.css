@@ -572,6 +572,8 @@ background-color: var(--icon-hover);
     right: 24px;
     top: 24px;
     background-color: var(--btn-color);
+    display: block;
+    margin-left: auto;
 }
 
 .is-hidden {
@@ -579,3 +581,33 @@ background-color: var(--icon-hover);
     visibility: hidden;
     pointer-events: none;
 }
+
+.modal-title {
+}
+.modal-form {
+}
+
+.input-text {
+    display: inline-block;
+    font-size: ;
+    margin-bottom: ;
+}
+.modal-input {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: ;
+    padding-left: 15px;
+}
+.modal-input::placeholder {
+    font-size: ;
+    color: #2E2F42;
+}
+
+.intup-icon {
+    position: absolute;
+}
+
+/* .modal-input:not(:placeholder-shown):not(:focus):valid {}
+
+.modal-input:not(:placeholder-shown):not(:focus):invalid {} */
